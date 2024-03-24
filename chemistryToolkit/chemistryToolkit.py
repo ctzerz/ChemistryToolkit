@@ -25,3 +25,5 @@ tableRow = elementIndex(tableOfElements, userElement)
 print("Element:",tableOfElements[tableRow][1])
 print("Atomic Number:",tableOfElements[tableRow][0])
 print("Atomic Mass:",tableOfElements[tableRow][2])
+
+input("Press Enter to continue...")
