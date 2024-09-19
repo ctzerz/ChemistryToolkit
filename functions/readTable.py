@@ -15,10 +15,3 @@ def readTable(filename):
         tableOfElements = list(reader)
         tableOfElements = tableOfElements[1:]
     return tableOfElements
-
-def main():
-    tableOfElements = readTable(cFilename)
-    elementSearch.searchForElement(tableOfElements)
-
-if __name__ == "__main__":
-    main()
