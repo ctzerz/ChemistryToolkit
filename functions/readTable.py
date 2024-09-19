@@ -3,9 +3,8 @@
 # Takes user input and return elemental properties
 
 import csv
-import elementSearch
 
-cFilename = "Periodic Table of Elements.csv"
+#cFilename = "Periodic Table of Elements.csv"
 
 def readTable(filename):
     # Open the library of elements and save it as a list without the first
